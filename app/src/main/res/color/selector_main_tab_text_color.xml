@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 根据不同的状态设置控件的颜色-->
+    <!-- 状态越多就越在xml 上面写  当前是选中状态-->
+    <item android:color="#F00" android:state_checked="true"></item>
+    <!-- 不指定状态 代表是 默认状态，一定要在最低边写-->
+    <item android:color="#000"></item>
+</selector>
